@@ -1,7 +1,7 @@
 # Site Settings
 locale                   : "en-US"
-title: "Andrew Data Lab Blog"
-name: "Andrew Nam"
+title                    : "Andrew Data Lab Blog"
+name                     : "Andrew Nam"
 subtitle                 : "IP, Network, Wan Optimization, Hybrid Cloud, Data Automation and Orchestration Journey" 
 title_separator          : "-"
 description: "Made with <b style=\"color: #f45;\Jekyll</b>"
