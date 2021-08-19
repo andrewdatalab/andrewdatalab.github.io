@@ -1,6 +1,6 @@
 title: "Andrew Data Lab Blog"
 author: "Andrew Nam"
-description: "Made with Jekyll<b style=\"color: #f45;\">&lt;3</b>"
+description: "Made with <b style=\"color: #f45;\Jekyll</b>"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
