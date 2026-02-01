@@ -32,7 +32,7 @@ timezone: Australia/Sydney # Set for correct post dating
 </pre>
 5. Enable the "About" Page. In Chirpy, the "About" link in the sidebar is controlled by the tabs/ folder.
 <pre>
-  ---
+---
 layout: about
 icon: fas fa-info-circle
 order: 4
