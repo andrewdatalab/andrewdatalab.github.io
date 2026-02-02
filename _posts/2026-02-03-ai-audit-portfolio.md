@@ -157,7 +157,7 @@ Expected results:
 
 ---
 
-## 🧠 Simple mental model for your son
+## 🧠 Simple brain mapping to undersand window's environment
 
 | Computer | Real life |
 | --- | --- |
