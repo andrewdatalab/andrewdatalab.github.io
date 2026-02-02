@@ -289,26 +289,12 @@ LangChain provides:
 
 ![RAG Flow](/assets/img/rag-flow.png)
 
-'''
-User Question
-   |
-   v
-Retriever (BM25 / FAISS)
-   |
-   v
-Relevant Documents
-   |
-   v
-Prompt + Context
-   |
-   v
-LLM (via Ollama)
-   |
-   v
-Answer
-'''
-
-
+1. **User Question**
+2. **Retriever** (BM25 / FAISS)
+3. **Relevant Documents**
+4. **Prompt + Context**
+5. **LLM** (via Ollama)
+6. **Answer**
 
 
 ---
