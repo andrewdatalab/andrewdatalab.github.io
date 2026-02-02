@@ -35,13 +35,13 @@ The **Amadeus API** is a widely used travel industry platform that provides:
 
 ### Why API Over Pure Web Scraping?
 
-```text
-| API (Amadeus) | Web Scraping |
-|---|---|
+| **API (Amadeus)** | **Web Scraping** |
+|------------------|-----------------|
 | Structured, reliable data | HTML structure can break |
 | Official access & rate limits | Risk of blocking |
 | Cleaner integration | Requires heavy parsing |
 | Industry-grade accuracy | Data quality varies |
+
 
 > In this project, **APIs are used as the primary source**, while AI is used to *interpret, filter, and enhance* the results.
 
