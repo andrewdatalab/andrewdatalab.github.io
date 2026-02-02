@@ -192,5 +192,56 @@ Local LLM (Ollama)
 AI-Enhanced Output
 ```
 
+## 📦 Source Code
+
+The full source code for this project is available on GitHub:
+
+👉 **andrew-ai-lab**  
+https://github.com/andrewdatalab/andrew-ai-lab
+
+Main script used in this post:
+- `flight_search_app.py`
+
+## 🏃 How to Run the Script
+
+The main application in this repository is a Streamlit app.
+
+1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/andrewdatalab/andrew-ai-lab.git
+cd andrew-ai-lab
+```
+
+2️⃣ (Optional) Set Up a Virtual Environment
+
+windows
+
+```powershell
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+mac
+
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+4️⃣ Run the Streamlit App
+
+```bash
+streamlit run flight_search_app.py
+
+```
+
+
 
 
