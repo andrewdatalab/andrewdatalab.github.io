@@ -16,8 +16,7 @@ timezone: Australia/Sydney
 
 title: Andrew Data Lab # the main title
 
-tagline: > andrewdatalab.github.io<br>
-           Network · LAN · WAN · Virtualization · Cloud · Automation · AI Journey 
+tagline: andrewdatalab.github.io Network Virtualization Cloud Automation AI Journey 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
