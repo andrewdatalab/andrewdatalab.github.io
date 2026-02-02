@@ -9,11 +9,9 @@ tags: [welcome, chirpy]
 This is my first post on my new Chirpy blog. I'll be sharing my journey through networking, cloud, and AI.
 
 ### My Goals
-1. Document technical projects.
-2. Share insights on **AI** related topic including automation.
-3. Explore **AI Agents** in automation.
-
-> This blog is a playground for learning and sharing.
+1. This blog is a playground for learning and sharing. Capture my thoughts around ever-evolving world of technology.
+2. Share insights on **networking, cloud, automation and AI** related topic.
+3. been testing a various platforms to set up my blog site and so far jekyll chirpy theme is best suit me to set up day to day blog. It's easy to use. Very clean layout.
 
 ### How to Chirpy on Github
 1. Use the Template: On the Chirpy Starter page, click the green "Use this template" button and select "Create a new repository".
