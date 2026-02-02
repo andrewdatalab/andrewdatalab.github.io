@@ -247,6 +247,9 @@ streamlit run flight_search_app.py
 
 ```
 
+## ✈️ flight search results
+
+![RAG Flow](/assets/img/flight_search_ui.png)
 
 
 
