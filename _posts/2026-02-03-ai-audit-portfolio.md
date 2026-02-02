@@ -5,11 +5,7 @@ categories: [AI, app]
 tags: [audit, anomaly, financial, report, summary]
 ---
 
-# windows environment set up
-
-Owner: beyond_nam
-
-# 🎯 Goal
+# 🎯  Windows environment set up
 
 Create a **private Python workspace (venv)** on **Windows 11** so you can run and test the audit scripts safely.
 
