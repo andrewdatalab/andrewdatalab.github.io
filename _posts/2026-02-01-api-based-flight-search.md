@@ -1,6 +1,6 @@
 ---
 title: API-based flight search or web scraping
-date: 2026-02-03 17:00:00 +1100
+date: 2026-02-02 17:00:00 +1100
 categories: [app]
 tags: [llm, ai-app]
 ---
