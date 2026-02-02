@@ -49,6 +49,8 @@ This folder will hold:
 - Excel test data
 - The virtual environment
 
+![RAG Flow](/assets/img/post20260203-audit-directory.png)
+
 ---
 
 ## 3️⃣ Create the virtual environment (venv)
