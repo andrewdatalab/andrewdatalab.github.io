@@ -138,23 +138,7 @@ Everything installs **only inside this project**.
 
 ---
 
-## 6️⃣ Add the Excel test file
-
-Place `sample_gl.xlsx` into this folder:
-
-```
-ai-audit/
- ├ ai-audit/
- ├ sample_gl.xlsx
- ├ anomaly_detector.py
- ├ financial_summary.py
- └ report_generator.py
-
-```
-
----
-
-## 7️⃣ Run the scripts
+## 6️⃣ Run the scripts
 
 ```powershell
 python anomaly_detector.py
@@ -184,35 +168,22 @@ Expected results:
 
 ---
 
-## ✅ If he understands THIS
+## AI Audit Portfolio
 
-He already understands:
+Source repository:  
+https://github.com/andrewdatalab/andrew-ai-lab/tree/main/ai-audit-portfolio
 
-- How professionals isolate projects
-- How real AI audit tools are built
-- How to avoid breaking systems
+### Components
 
-That alone puts him **years ahead of typical students**.
+- **`anomaly_detector.py`**  
+  Detects anomalies in financial or transactional data using statistical techniques.
 
-If you want, next I can:
+- **`financial_summary.py`**  
+  Aggregates and summarises financial data into key metrics for analysis.
 
-- Simplify error messages he may hit
-- Convert this into a **1-page student checklist**
-- Or add **AI explanation comments inside the scripts**
+- **`report_generator.py`**  
+  Generates structured audit reports based on detected anomalies and financial summaries.
 
-i need anomaly_detector.py
-
-financial_summary.py
-
-report_generator.py to download
-
-Your three Python files are ready.
-
-**Download them here:**
-
-- anomaly_detector.py
-- financial_summary.py
-- report_generator.py
 
 Put these files in the same folder as `sample_gl.xlsx`, activate your venv, and run:
 
@@ -220,11 +191,9 @@ Put these files in the same folder as `sample_gl.xlsx`, activate your venv, and 
 python anomaly_detector.py
 python financial_summary.py
 python report_generator.py
-
 ```
 
 You should see:
-
 - `audit_flags.xlsx`
 - `monthly_summary.xlsx`
 - `audit_report.pdf` generated automatically.
