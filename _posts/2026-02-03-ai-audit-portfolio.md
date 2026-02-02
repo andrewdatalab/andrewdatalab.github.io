@@ -1,3 +1,9 @@
+---
+title: AI Audit Portfolio
+date: 2026-02-03 10:00:00 +1100
+categories: [AI, app]
+tags: [audit, anomaly, financial, report, summary]
+---
 
 # windows environment set up
 
