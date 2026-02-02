@@ -195,3 +195,7 @@ You should see:
 - `audit_flags.xlsx`
 - `monthly_summary.xlsx`
 - `audit_report.pdf` generated automatically.
+
+![RAG Flow](/assets/imgpost20260203-audit-results1.png)
+
+
