@@ -1,7 +1,7 @@
 ---
 title: "AI Basic Terminology Explained (Beginner-Friendly)"
 date: 2026-02-02
-categories: [AI, LLM, Basics]
+categories: [AI, Basics]
 tags: [ai, llm, rag, langchain, ollama]
 ---
 
