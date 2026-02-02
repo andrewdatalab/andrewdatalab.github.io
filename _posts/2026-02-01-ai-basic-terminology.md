@@ -287,8 +287,9 @@ LangChain provides:
 
 ## 15. High-Level RAG Flow
 
-![image.png](attachment:6357aa1d-ca90-4f0b-83d0-159698e1ad0f:image.png)
+![RAG Flow](/assets/img/rag-flow.png)
 
+'''
 User Question
    |
    v
@@ -305,6 +306,8 @@ LLM (via Ollama)
    |
    v
 Answer
+'''
+
 
 
 
