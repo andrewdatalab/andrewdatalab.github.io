@@ -32,6 +32,7 @@ timezone: Australia/Sydney # Set for correct post dating
 ```
 
 5. Enable the "About" Page. In Chirpy, the "About" link in the sidebar is controlled by the tabs/ folder.
+
 ```markdown
 ---
 layout: about
