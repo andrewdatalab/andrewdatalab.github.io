@@ -191,20 +191,31 @@ python financial_summary.py
 python report_generator.py
 ```
 
-You should see:
+---
+
+You should see the following files generated automatically:
+
 - `audit_flags.xlsx`
 - `monthly_summary.xlsx`
-- `audit_report.pdf` generated automatically.
+- `audit_report.pdf`
 
-- sample excel source file to be examed :
-![RAG Flow](/assets/img/post20260203-sample-audit-excel.png)
+---
 
-- monthly_summary.xlsx created :
-![RAG Flow](/assets/img/post20260203-audit-results1.png)
+### Sample Excel source file to be examined
 
-- abnormalies found :
-![RAG Flow](/assets/img/post20260203-abnormaly-output.png)
+![Sample audit Excel source file](/assets/img/post20260203-sample-audit-excel.png)
 
+---
+
+### `monthly_summary.xlsx` created
+
+![Monthly summary Excel output](/assets/img/post20260203-audit-results1.png)
+
+---
+
+### Abnormalities found
+
+![Detected anomalies output](/assets/img/post20260203-abnormaly-output.png)
 
 
 
