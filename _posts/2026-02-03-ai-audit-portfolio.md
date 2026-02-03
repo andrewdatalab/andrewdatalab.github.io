@@ -196,6 +196,6 @@ You should see:
 - `monthly_summary.xlsx`
 - `audit_report.pdf` generated automatically.
 
-![RAG Flow](/assets/imgpost20260203-audit-results1.png)
+![RAG Flow](/assets/img/post20260203-audit-results1.png)
 
 
