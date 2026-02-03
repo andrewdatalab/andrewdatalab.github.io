@@ -196,6 +196,15 @@ You should see:
 - `monthly_summary.xlsx`
 - `audit_report.pdf` generated automatically.
 
+- sample excel source file to be examed :
+![RAG Flow](/assets/img/post20260203-sample-audit-excel.png)
+
+- monthly_summary.xlsx created :
 ![RAG Flow](/assets/img/post20260203-audit-results1.png)
+
+- abnormalies found :
+![RAG Flow](/assets/img/post20260203-abnormaly-output.png)
+
+
 
 
