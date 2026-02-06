@@ -31,7 +31,7 @@ Go to Setting > Developer : Local MCP servers click "Edit Config".
 ```
 
 ## 🔄 Download MCP server python script 
-# Source: https://github.com/andrewdatalab/andrew-ai-lab/blob/main/mcp/nc2_azure_mcp.py
+- Source: https://github.com/andrewdatalab/andrew-ai-lab/blob/main/mcp/nc2_azure_mcp.py
 
 ## Azure authentication steps (Windows PowerShell)
 ☑ Step A — Install Azure CLI (if missing)
