@@ -6,8 +6,8 @@ tags: [mcp, claude, windows, azure]
 ---
 
 ## Pre-requisite :
-1️⃣ Claude Desktop is installed in your Wndows 11
-2️⃣ MCP server written in Python script. In my case nc2_azure_mcp.py
+- 1️⃣ Claude Desktop is installed in your Wndows 11
+- 2️⃣ MCP server written in Python script.
 
 ## 🧠 High-Level Purpose
 In brief, in Claude Desktop, mcpServers.json is the configuration file that tells Claude Desktop how to start/connect to your MCP server. The server is your Python script (e.g., nc2_azure_mcp.py) that Claude launches via the command you configure.
@@ -48,7 +48,7 @@ winget install -e --id Microsoft.AzureCLI
 az login
 ```
 
-If your org needs device code login (common in locked-down environments):
+- If your org needs device code login (common in locked-down environments):
 
 ```powershell
 az login --use-device-code
@@ -56,19 +56,19 @@ az login --use-device-code
 
 ☑ Step C — Set the correct subscription (very common issue)
 
-List subscriptions:
+- List subscriptions:
 
 ```powershell
 az account list -o table
 ```
 
-Set one:
+- Set one:
 
 ```powershell
 az account set --subscription "<SUBSCRIPTION_ID_OR_NAME>"
 ```
 
-Confirm:
+- Confirm:
 
 ```powershell
 az account show -o json
@@ -80,7 +80,7 @@ az account show -o json
 az group show -n "<RESOURCE_GROUP_NAME>" -o json
 ```
 
-If you get authorization errors, you need at least Reader access to that resource group.
+⚠️ notes : If you get authorization errors, you need at least Reader access to that resource group.
 
 
 ## 🎯 End-to-end test (after everything is set)
@@ -104,7 +104,7 @@ Confirm Azure auth:
 az account show -o json
 ```
 
-Restart Claude Desktop and ask:
+🎯 Restart Claude Desktop and ask:
 
 Use the NC2 Azure Prevalidation tool.
 Resource group: <your-rg>
