@@ -12,6 +12,8 @@ tags: [mcp, claude, windows, azure]
 ## 🧠 High-Level Purpose
 In brief, in Claude Desktop, mcpServers.json is the configuration file that tells Claude Desktop how to start/connect to your MCP server. The server is your Python script (e.g., nc2_azure_mcp.py) that Claude launches via the command you configure.
 
+![RAG Flow](/assets/img/post20260206-mcp-architecture.png)
+
 ## 🔍 Where to find mcpServers.json?
 Go to Setting > Developer : Local MCP servers click "Edit Config". 
 
