@@ -5,13 +5,14 @@ categories: [MCP, Claude]
 tags: [mcp, claude, windows, azure]
 ---
 
-Pre-requisite :
-Claude Desktop is installed in your Wndows 11
-MCP server written in Python script. In my case nc2_azure_mcp.py
+## Pre-requisite :
+1️⃣ Claude Desktop is installed in your Wndows 11
+2️⃣ MCP server written in Python script. In my case nc2_azure_mcp.py
 
+## 🧠 High-Level Purpose
 In brief, in Claude Desktop, mcpServers.json is the configuration file that tells Claude Desktop how to start/connect to your MCP server. The server is your Python script (e.g., nc2_azure_mcp.py) that Claude launches via the command you configure.
 
-Where to find mcpServers.json?
+## 🔍 Where to find mcpServers.json?
 Go to Setting > Developer : Local MCP servers click "Edit Config". 
 
 ```json
@@ -29,14 +30,17 @@ Go to Setting > Developer : Local MCP servers click "Edit Config".
 
 ```
 
-Azure authentication steps (Windows PowerShell)
-Step A — Install Azure CLI (if missing)
+## 🔄 Download MCP server python script 
+# Source: https://github.com/andrewdatalab/andrew-ai-lab/blob/main/mcp/nc2_azure_mcp.py
+
+## Azure authentication steps (Windows PowerShell)
+☑ Step A — Install Azure CLI (if missing)
 
 ```powershell
 winget install -e --id Microsoft.AzureCLI
 ```
 
-Step B — Login to Azure
+☑ Step B — Login to Azure
 
 ```powershell
 az login
@@ -48,7 +52,7 @@ If your org needs device code login (common in locked-down environments):
 az login --use-device-code
 ```
 
-Step C — Set the correct subscription (very common issue)
+☑ Step C — Set the correct subscription (very common issue)
 
 List subscriptions:
 
@@ -68,7 +72,7 @@ Confirm:
 az account show -o json
 ```
 
-Step D — Verify you can read the target RG
+☑ Step D — Verify you can read the target RG
 
 ```powershell
 az group show -n "<RESOURCE_GROUP_NAME>" -o json
@@ -77,7 +81,7 @@ az group show -n "<RESOURCE_GROUP_NAME>" -o json
 If you get authorization errors, you need at least Reader access to that resource group.
 
 
-5) End-to-end test (after everything is set)
+## 🎯 End-to-end test (after everything is set)
 
 Activate venv:
 
