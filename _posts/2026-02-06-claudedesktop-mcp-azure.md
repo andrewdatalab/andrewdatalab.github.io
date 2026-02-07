@@ -121,7 +121,9 @@ az account show -o json
 
 🎯 Restart Claude Desktop and ask:
 
+```
 Use the NC2 Azure Prevalidation tool.
 Resource group: <your-rg>
 VNet name: <your-vnet>
 Return PASS/FAIL with reasons.
+```
