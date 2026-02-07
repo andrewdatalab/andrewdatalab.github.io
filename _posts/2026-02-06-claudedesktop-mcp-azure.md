@@ -1,5 +1,5 @@
 ---
-title: Cluade Desktop MCP Server to connect Azure
+title: Claude Desktop MCP Server to connect Azure
 date: 2026-02-06 17:00:00 +1100
 categories: [MCP, Claude]
 tags: [mcp, claude, windows, azure]
@@ -10,9 +10,24 @@ tags: [mcp, claude, windows, azure]
 - 2️⃣ MCP server written in Python script.
 
 ## 🧠 High-Level Purpose
-In brief, in Claude Desktop, mcpServers.json is the configuration file that tells Claude Desktop how to start/connect to your MCP server. The server is your Python script (e.g., nc2_azure_mcp.py) that Claude launches via the command you configure.
 
-![RAG Flow](/assets/img/post20260206-mcp_architecture.png)
+In short, the `mcpServers.json` file is the "brain center" of the setup. It is the configuration file that tells **Claude Desktop** exactly how to launch and connect to your **MCP Server**. In this project, the server is the Python script (`nc2_azure_mcp.py`) that Claude initiates via the command line instructions we provided.
+
+![MCP Architecture](/assets/img/post20260206-mcp_architecture.png)
+*Note: While many focus on RAG, MCP shifts the focus from data retrieval to active capability.*
+
+---
+
+### **Knowledge vs. Capability: Why MCP is Different**
+
+When people discuss AI and data integration, the conversation usually revolves around **RAG (Retrieval-Augmented Generation)**. However, it is vital to understand that MCP serves a much more powerful purpose:
+
+* **RAG is about Knowledge (The "Library Card")** RAG gives the AI access to a library of information. It can look up your old documents, PDFs, and historical data to "know" more facts. This is a **passive** flow of information where the AI learns from the past.
+
+* **MCP is about Capability (The "Work Badge")** With the Azure MCP server I’ve built, Claude isn't just reading a static report about my environment; it is actually "logging in" to the system. It can check live status, list resources, and (with the right permissions) trigger actions. This is an **active** connection.
+
+> **The Bottom Line:** While RAG tells the AI what happened in the past, **MCP allows the AI to see what is happening right now and do something about it.** In this Azure example, we are moving from simply "Chatting about my Cloud" to "Operating my Cloud" through a natural language interface.
+
 
 ## 🔍 Where to find mcpServers.json?
 Go to Setting > Developer : Local MCP servers click "Edit Config". 
