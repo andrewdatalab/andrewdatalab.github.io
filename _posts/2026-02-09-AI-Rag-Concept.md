@@ -1,6 +1,6 @@
 ---
 title: AI RAG Concept
-date: 2026-02-01 20:00:00 +1100
+date: 2026-02-09 13:00:00 +1100
 categories: [AI, Basics]
 tags: [ai, rag, llm, concept]
 ---
