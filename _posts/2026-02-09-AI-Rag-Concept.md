@@ -7,7 +7,7 @@ tags: [ai, rag, llm, concept]
 
 # LLM RAG AI Concept
 
-![RAG Flow](/assets/img/post20260206-mcp_architecture.png)
+![RAG Flow](/assets/img/rag-flow.png)
 
 At a high level, an LLM-driven RAG system can be conceptualized as a generalized function that maps a user **prompt** to an **output**, similar to how traditional functions map inputs to outputs.
 
