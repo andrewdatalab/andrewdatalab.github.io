@@ -92,7 +92,7 @@ They provide reusable building blocks so you don’t have to build everything fr
 ### Runtime
 
 - **Ollama**  
-  Runs LLMs locally on your machine as a local server.
+  Runs LLMs locally on your machine as a local server. It serves as the execution environment. It handles loading the model into the RAM or VRAM. It manages the inference process by forwarding user prompts to the model. It retrieves and delivers the generated output back to the user.
 
 ### Wrapper
 
