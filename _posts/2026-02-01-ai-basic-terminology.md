@@ -95,12 +95,18 @@ They provide reusable building blocks so you don’t have to build everything fr
   Runs LLMs locally on your machine as a local server. It serves as the execution environment. It handles loading the model into the RAM or VRAM. It manages the inference process by forwarding user prompts to the model. It retrieves and delivers the generated output back to the user.
 
 ### Wrapper
+A Wrapper acts as an interface or an intermediary layer that makes a complex system (like an AI engine) easier to interact with and manage.
 
-- **ChatOllama**  
-  A LangChain wrapper that allows Python to communicate with Ollama.
+- **ChatOllama**
+  A specialized implementation (often utilizing LangChain) that allows Python applications or user interfaces to communicate seamlessly with the Ollama backend.
 
-> **Runtime** = where the model runs  
-> **Wrapper** = how your code talks to it
+- **What a Wrapper does for you:**
+  - User Interface (UI): Provides a polished chat box, buttons, and menus instead of a raw command-line (CLI) terminal.
+  - State Management: Enables "memory" by tracking and storing your chat history, as the raw Ollama engine is naturally "stateless" (it forgets the context once the session ends).
+  - File Handling: Facilitates Multimodal capabilities, allowing you to upload PDFs, text documents, or images for the model to analyze.
+  - API Orchestration: Acts as a bridge, connecting the model to external tools such as the internet, private databases, or local file systems.
+
+
 
 ---
 
@@ -133,7 +139,7 @@ Source data can include:
 - Web pages
 - Databases
 
-To use this data, it must be **processed and indexed first**.
+To use this data, it must be **processed and indexed first**. One thing to be aware that while LLMs can process various formats, Markdown (.md) is widely considered the "Gold Standard" for feeding private data into an AI (especially for RAG - Retrieval-Augmented Generation).
 
 ---
 
