@@ -13,7 +13,7 @@ tags: [mcp, claude, windows, azure]
 
 In short, the `mcpServers.json` file is the "brain center" of the setup. It is the configuration file that tells **Claude Desktop** exactly how to launch and connect to your **MCP Server**. In this project, the server is the Python script (`nc2_azure_mcp.py`) that Claude initiates via the command line instructions we provided.
 
-![MCP Architecture](/assets/img/post20260415-mcp_architecture.png)
+![MCP Architecture](/assets/img/post20260206-mcp_architecture.png)
 *Note: While many focus on RAG, MCP shifts the focus from data retrieval to active capability.*
 
 ---
