@@ -38,8 +38,8 @@ Go to Setting > Developer : Local MCP servers click "Edit Config".
     {
       "name": "NC2 Azure Prevalidation",
       "command": [
-        "C:\\Users\\Andrew\\nc2-mcp\\venv\\Scripts\\python.exe",
-        "C:\\Users\\Andrew\\nc2-mcp\\nc2_azure_mcp.py"
+        "C:\\Users\Andrew\nc2-mcp\venv\Scripts\python.exe",
+        "C:\\Users\Andrew\nc2-mcp\nc2_azure_mcp.py"
       ]
     }
   ]
