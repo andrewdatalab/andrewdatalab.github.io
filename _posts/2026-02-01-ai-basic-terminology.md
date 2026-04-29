@@ -33,7 +33,7 @@ An LLM is an AI model trained on a huge amount of text so it can:
 - Claude
 - DeepSeek
 
-> 💡 Think of an LLM as a **very advanced text prediction engine**.
+> 💡 Think of an LLM as a **very advanced text prediction engine**. 
 
 ---
 
@@ -199,6 +199,7 @@ Embedding models automatically:
 - HuggingFace Embeddings
 - Sentence Transformers
 - OpenAI Embeddings
+- nomic-embed-text
 
 You usually don’t handle tokenization manually — the model does it internally.
 
@@ -213,6 +214,7 @@ A **Vector DB** stores embeddings and allows fast similarity search.
 - **FAISS** (local, lightweight)
 - **Pinecone**
 - **Weaviate**
+- **Chroma**
 
 Why they exist:
 
